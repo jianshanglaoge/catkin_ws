@@ -4,7 +4,7 @@ This is the repository for the SmartSystems Lab's custom autonomous robot: Robot
 
 ## Before Using & Start Setting
 
-The guidence of setting the robot part is in  [Main Controler part](https://github.com/NicoPowers/odrive_interface) package. Please check it before starting this part.
+The guidence of setting the robot part is in  [Main Controler part](https://github.com/jianshanglaoge/training_robot_ws) package. Please check it before starting this part.
 
 The code at perkobot_control: diff_dirve_converter.py and odrive_interface odrive_controller.py and odrive_class.py has been developed. To help you better understand it, you can take a look at [Pervious version](https://github.com/NicoPowers/perkobot)
 
