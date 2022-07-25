@@ -1,0 +1,8 @@
+prefix=/home/bobdabot/catkin_ws/install
+
+Name: bobdabot_base
+Description: Description of bobdabot_base
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs odrive_interface rospy std_msgs

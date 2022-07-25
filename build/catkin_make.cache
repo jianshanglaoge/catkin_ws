@@ -1,0 +1,2 @@
+laser_filters-ros2/laser_filters-ros2:odrive_interface:perkobot/perkobot_control:rplidar_ros
+-DCATKIN_DEVEL_PREFIX=/home/bobdabot/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/bobdabot/catkin_ws/install -G Unix Makefiles

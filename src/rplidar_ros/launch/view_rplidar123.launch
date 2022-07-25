@@ -1,0 +1,13 @@
+<!--
+  Used for visualising rplidar in action.  
+  
+  It requires rplidar.launch.
+ -->
+<launch>
+  <include file="$(find rplidar_ros)/launch/rplidar.launch" />
+  <arg name="scan_topic" default="scan" />
+  <node pkg="odrive_interface" type="odrive_controller.py" name="odrive" required="true" output="log"/>
+  <node pkg="perkobot_control" type="diff_drive_converter.py" name="diff_drive"/>
+   
+
+</launch>

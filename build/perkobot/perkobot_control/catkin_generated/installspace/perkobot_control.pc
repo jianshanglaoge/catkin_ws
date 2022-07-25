@@ -1,0 +1,8 @@
+prefix=/home/bobdabot/catkin_ws/install
+
+Name: perkobot_control
+Description: Description of perkobot_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
